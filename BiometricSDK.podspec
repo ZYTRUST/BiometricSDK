@@ -13,7 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/ZYTRUST/BiometricSDK.git", :tag => "4.32.1" }
   s.requires_arc = true
   s.vendored_frameworks = "BiometricSDK.xcframework"
-  s.pod_target_xcconfig = {
-    'ONLY_ACTIVE_ARCH' => 'YES'
-  }
+
 end
