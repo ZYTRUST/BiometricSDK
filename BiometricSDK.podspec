@@ -14,4 +14,8 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.vendored_frameworks = "BiometricSDK.xcframework"
 
+  s.pod_target_xcconfig = {
+    'ONLY_ACTIVE_ARCH' => 'YES'
+  }
+
 end
