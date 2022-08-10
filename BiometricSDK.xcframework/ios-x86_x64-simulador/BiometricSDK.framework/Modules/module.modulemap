@@ -1,6 +1,0 @@
-framework module BiometricSDK {
-  umbrella header "BiometricSDK.h"
-
-  export *
-  module * { export * }
-}
