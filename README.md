@@ -1,2 +1,2 @@
 # BiometricSDK
-version 4.23.0
+version 4.33.0

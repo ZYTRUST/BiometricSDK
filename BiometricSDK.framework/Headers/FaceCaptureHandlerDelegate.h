@@ -38,16 +38,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)captureFinishedWithImages:(NSArray<BIOFaceImage *> * _Nullable)images withBiometrics:(BIOBiometrics * _Nullable)biometrics withError:(NSError * _Nullable)error;
 
-
-/**
- * Method that is triggered when BIOFaceCaptureHandler receive any info for user for user e.g. to back to camera field.
- *
- * @param info Parameter that describe action from user that needs to be done to finish capturing.
- * @param challengeInfo information about the challenges (current challenge number and total number of challenges).
- * @param error error if something was wrong otherwise nil.
- */
-- (void)receiveBioCaptureInfo:(BIOCapturingInfo)info withChallengeInfo:(BIOChallengeInfo * _Nullable)challengeInfo withError:(NSError * _Nullable)error __attribute__((__deprecated__("As of release 4.28.0, no longer for use. Will be removed in 4.31.0.")));
-
 /**
  * Method that is triggered when BIOFaceCaptureHandler receive any info for user for user e.g. to back to camera field.
  *

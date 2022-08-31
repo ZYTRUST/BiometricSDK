@@ -12,6 +12,5 @@ FOUNDATION_EXPORT const unsigned char BiometricSDKVersionString[];
 
 #import <BiometricSDK/BiometricSDK-Common.h>
 #import <BiometricSDK/BiometricSDK-Face.h>
-#import <BiometricSDK/BiometricSDK-Finger.h>
 #import <BiometricSDK/BiometricSDK-Matcher.h>
 #import <BiometricSDK/BiometricSDK-Store.h>

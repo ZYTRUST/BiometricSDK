@@ -31,25 +31,9 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Method that is triggered when capture is finished and face metadata is available.
  *
- * @param metadata Object with metadata that can be used for liveness verification on the server.
- */
-- (void)captureFinishedWithMetadata:(BIOFaceMetadata *)metadata __attribute__((__deprecated__("As of release 4.29.0, no longer for use. Will be removed in 4.31.0. Use 'captureFinishedWithEncryptedMetadata' instead")));
-
-/**
- * Method that is triggered when capture is finished and face metadata is available.
- *
  * @param metadata Object with encrypted metadata that can be used for liveness verification on the server.
  */
 - (void)captureFinishedWithEncryptedMetadata:(BIOEncryptedData *)encryptedMetadata;
-
-/**
- * Method that is triggered when information about the capture is available.
- *
- * @param info Parameter that describe action from user that needs to be done to finish capturing.
- * @param challengeInfo information about the challenges (current challenge number and total number of challenges).
- * @param error error if something was wrong otherwise nil.
- */
-- (void)receiveBioCaptureInfo:(BIOCapturingInfo)info withChallengeInfo:(BIOChallengeInfo * _Nullable)challengeInfo withError:(NSError * _Nullable)error __attribute__((__deprecated__("As of release 4.28.0, no longer for use. Will be removed in 4.31.0.")));
 
 /**
  * Method that is triggered when information about the capture is available.
