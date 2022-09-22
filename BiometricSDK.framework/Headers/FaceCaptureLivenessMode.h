@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, FaceCaptureLivenessMode) {
     /**
      * Sets FaceCaptureHandler to perform medium liveness challenge (SLAM, head movement in any direction)
      */
-    FaceCaptureLivenessModeMedium __attribute__((deprecated("Mode deprecated, will be removed in 4.34.0"))),
+    FaceCaptureLivenessModeMedium __attribute__((deprecated("Mode deprecated, will be removed in 4.35.0"))),
     /**
      * Sets FaceCaptureHandler to perform passive liveness check.
      */

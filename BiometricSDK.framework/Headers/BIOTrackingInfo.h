@@ -35,8 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (instancetype)initWithBiometricLocation:(BIOLocation)biometricLocation
                     withBiometricModality:(BIOModality)biometricModality
-                                withFrame:(CGRect)frame
-                          withOrientation:(CGFloat)orientation __attribute__((__deprecated__("As of release 4.31.0, no longer for use. Will be removed in 4.34.0.")));
+                                withFrame:(CGRect)frame;
 
 /**
  *  Initializer that allow to set frame and orientation parameters
@@ -61,8 +60,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)bioTrakingWithBiometricLocation:(BIOLocation)biometricLocation
                            withBiometricModality:(BIOModality)biometricModality
-                                       withFrame:(CGRect)frame
-                                 withOrientation:(CGFloat)orientation __attribute__((__deprecated__("As of release 4.31.0, no longer for use. Will be removed in 4.34.0.")));
+                                       withFrame:(CGRect)frame;
 
 /**
  *  Class method that creates instance without location parameter
@@ -74,16 +72,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)bioTrackingWithFrame:(CGRect)frame
                                 withOrientation:(CGFloat)orientation;
-
-/**
- *   Location of biometrics scanned
- */
-@property (nonatomic, assign) BIOLocation biometricLocation __attribute__((__deprecated__("As of release 4.31.0, no longer for use. Will be removed in 4.34.0.")));
-
-/**
- *   Modality of taken biometrics information
- */
-@property (nonatomic, assign) BIOModality biometricModality __attribute__((__deprecated__("As of release 4.31.0, no longer for use. Will be removed in 4.34.0.")));
 
 /**
  *   Property stores frame of taken biometrics

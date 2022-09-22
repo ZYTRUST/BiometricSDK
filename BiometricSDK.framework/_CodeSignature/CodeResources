@@ -14,7 +14,15 @@
 		</data>
 		<key>FACE.dat</key>
 		<data>
-		jF8Q4yM8/9ofLc6BOHZ3wk8UccM=
+		aRL8RNH1RV4DWkIi+QAk3WgTses=
+		</data>
+		<key>FINGER.dat</key>
+		<data>
+		yDqosCYWmmT2LGUcsPgy/cCArIM=
+		</data>
+		<key>Headers/BIOAmputatedFinger.h</key>
+		<data>
+		LeKbs8OqsOnzxgO2BIVsg2DpQPI=
 		</data>
 		<key>Headers/BIOAuthenticationOptions.h</key>
 		<data>
@@ -160,9 +168,17 @@
 		<data>
 		GZmZK+oSqX9yQcDxyDCVaX/K7cY=
 		</data>
+		<key>Headers/BIOFingerCaptureInfo.h</key>
+		<data>
+		MuiYxWHTAnO7i33sCSny5yqFwv8=
+		</data>
 		<key>Headers/BIOFixedTargetCr2dMode.h</key>
 		<data>
 		I2rZ78d2JEdcCpE4Q+2AJcMjnBM=
+		</data>
+		<key>Headers/BIOHand.h</key>
+		<data>
+		hX4YmVKMVYQpc38HQnhpQpkAo9w=
 		</data>
 		<key>Headers/BIOIdentificationOptions.h</key>
 		<data>
@@ -203,6 +219,14 @@
 		<key>Headers/BIOLicenseOptions.h</key>
 		<data>
 		7hgFGtHi0idI+ajU8KWmr8IAatg=
+		</data>
+		<key>Headers/BIOLivenessResult.h</key>
+		<data>
+		MSfnZ8xKy/RqDy3yNLvrBzFB4yQ=
+		</data>
+		<key>Headers/BIOLivenessResultStatus.h</key>
+		<data>
+		K70I7edGMOefJiYMpvHu+W8OavM=
 		</data>
 		<key>Headers/BIOLocation.h</key>
 		<data>
@@ -292,6 +316,10 @@
 		<data>
 		iEfJWkl+xGdshPGV9g+ifqwiuDs=
 		</data>
+		<key>Headers/BIOSDK+Finger.h</key>
+		<data>
+		/DWYyQK0t0nFjzMXPj7E7gzHttE=
+		</data>
 		<key>Headers/BIOSDK+Matcher.h</key>
 		<data>
 		8nIvX++UWo/RnYdHhIY4o5XNMiA=
@@ -330,7 +358,7 @@
 		</data>
 		<key>Headers/BIOTrackingInfo.h</key>
 		<data>
-		Z0NsBl2bY9tBit7fXBKXCiOOthw=
+		DVgyZOhg8GOz39G4RHJsMo3xDiE=
 		</data>
 		<key>Headers/BIOTrainingCr2dMode.h</key>
 		<data>
@@ -360,6 +388,10 @@
 		<data>
 		ZDrZxxYyi6SWpFZdhe+TAKk57rA=
 		</data>
+		<key>Headers/BiometricSDK-Finger.h</key>
+		<data>
+		LpGb5A3WMRBdO4J3+z7axFIxtbs=
+		</data>
 		<key>Headers/BiometricSDK-Matcher.h</key>
 		<data>
 		dyGIDNLDkkw2ss9SZpEjt54tdMA=
@@ -374,7 +406,7 @@
 		</data>
 		<key>Headers/BiometricSDK.h</key>
 		<data>
-		kAFBLJZRtC6qxc4QWFz+QO58Y9U=
+		l48t1unVnO0l3+UeXws2kazB81o=
 		</data>
 		<key>Headers/FaceCaptureHandlerDelegate.h</key>
 		<data>
@@ -382,7 +414,7 @@
 		</data>
 		<key>Headers/FaceCaptureLivenessMode.h</key>
 		<data>
-		5etr7DJZwg2aAr4d7RU7XX5CTnw=
+		ubUK4lb4u8bTH6a5DbNAEm+2oGE=
 		</data>
 		<key>Headers/FaceCaptureOptions.h</key>
 		<data>
@@ -391,6 +423,22 @@
 		<key>Headers/FaceLivenessSecurityLevel.h</key>
 		<data>
 		I80bVZk7CWYrgWwuUtRWiD/GLqc=
+		</data>
+		<key>Headers/FingerCaptureHandlerDelegate.h</key>
+		<data>
+		wJC6GxjEgQZowx+iihppi62H7no=
+		</data>
+		<key>Headers/FingerCaptureLivenessType.h</key>
+		<data>
+		QwLReQU8u6zlCdqzwyzTpJ34U+4=
+		</data>
+		<key>Headers/FingerCaptureMode.h</key>
+		<data>
+		uqmQOud7hoqR9dL+092VnwpQ70A=
+		</data>
+		<key>Headers/FingerCaptureOptions.h</key>
+		<data>
+		kI4E1bVHI4t27OtIr3sRtFIyGH8=
 		</data>
 		<key>Headers/IBIOGenericCaptureHandler.h</key>
 		<data>
@@ -407,6 +455,10 @@
 		<key>Headers/IFaceCaptureHandler.h</key>
 		<data>
 		IH6V8hoS6YKlZDy74/rtPA/cPJo=
+		</data>
+		<key>Headers/IFingerCaptureHandler.h</key>
+		<data>
+		a1r9pMHUF3138jLpOcJ5kBxW0Bw=
 		</data>
 		<key>Headers/IRemoteFaceCaptureHandler.h</key>
 		<data>
@@ -430,7 +482,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		i7vg/gi6ensk2CGn+nOkmw4LdUE=
+		8i1zCxEPAU5AUZpzeJ0bA5kqe4E=
 		</data>
 		<key>MILCoreDataStorage.momd/MILCoreDataStorage.mom</key>
 		<data>
@@ -465,7 +517,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SvL1r3VCgwG2eSJMjW5DcQ3yKC06LkN4gw3Ci/fE1Og=
+			UghtcF28CyETX7LG6hqzqGfYIMCDa/Zx8DAdU+M/ypk=
+			</data>
+		</dict>
+		<key>FINGER.dat</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			v5+DPy4s+zDGE6XlHwb5I+U7CMe7Fq6c5iyFlkkvL0k=
+			</data>
+		</dict>
+		<key>Headers/BIOAmputatedFinger.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QzL0qlM7kQ6fyzMHosatjXRg2fZB7dBPwOXEy9T4XmQ=
 			</data>
 		</dict>
 		<key>Headers/BIOAuthenticationOptions.h</key>
@@ -720,11 +786,25 @@
 			vGP4qjVvGU58X0E199hYTfbbhSZpG5VKv41gQvcEI4E=
 			</data>
 		</dict>
+		<key>Headers/BIOFingerCaptureInfo.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N1prXGceUYd1Dv5LBGADRDmWSdk3AMOzdWIqlT5ZhtY=
+			</data>
+		</dict>
 		<key>Headers/BIOFixedTargetCr2dMode.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eXduig5Dzr6ihw9MR1TDFXS7Df0zzpNZBJrzShs2fwA=
+			</data>
+		</dict>
+		<key>Headers/BIOHand.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4PlJq+Qhx2Wg7WnO/oldmIrj0DzJCG+DUnhrPs9O8B0=
 			</data>
 		</dict>
 		<key>Headers/BIOIdentificationOptions.h</key>
@@ -795,6 +875,20 @@
 			<key>hash2</key>
 			<data>
 			V/hlhL6H6ihQADhfQT6ynaRdUT21Pi79Gdh0hOUzquc=
+			</data>
+		</dict>
+		<key>Headers/BIOLivenessResult.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GSQXahtdUkIy8m3HKjRz99QnGvUrv1N68Yhnb0ya3zQ=
+			</data>
+		</dict>
+		<key>Headers/BIOLivenessResultStatus.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fGK/Pmxo7zNjfZTYjMjUEWeHolenW2AshjDRRZk2eRE=
 			</data>
 		</dict>
 		<key>Headers/BIOLocation.h</key>
@@ -951,6 +1045,13 @@
 			CLmhsNz3z7PRtmOHYSOpkrhaMYArkHKbeOS7cYz0BIw=
 			</data>
 		</dict>
+		<key>Headers/BIOSDK+Finger.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7AVcxM6bKsIaP5u3lJiY72FL5j/cxVzjppUgF7GZJNw=
+			</data>
+		</dict>
 		<key>Headers/BIOSDK+Matcher.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1018,7 +1119,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfdxcsEOS3QPoxmCOW3yx0odfyqzmxVzw2FuSEgnPb8=
+			1g/4SEiKWQjFXeMgFmuwlpa9kelztR+ZTPpy0FCxd/A=
 			</data>
 		</dict>
 		<key>Headers/BIOTrainingCr2dMode.h</key>
@@ -1070,6 +1171,13 @@
 			aN6C3d+SFEP8p3P4BjiYvgOVFc4RItkws9Z6JGsfP1c=
 			</data>
 		</dict>
+		<key>Headers/BiometricSDK-Finger.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ckQi9RWVWAEY5EOBGYG5NOUVkqRqavzXqTer4HwDGvA=
+			</data>
+		</dict>
 		<key>Headers/BiometricSDK-Matcher.h</key>
 		<dict>
 			<key>hash2</key>
@@ -1095,7 +1203,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKGKh9wJKe8idXOFwMifrh4ac2/DvlIrOw3Xonc1Hys=
+			9wpWlu6zXQ97KiFaaZcLvLuzy+Ixzob1P3BXF9FTyME=
 			</data>
 		</dict>
 		<key>Headers/FaceCaptureHandlerDelegate.h</key>
@@ -1109,7 +1217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n6txwZ9tcC0EYxxoaqQF9lSmf+67j/2wuu9BoRkvkHY=
+			gVowy4eq3vMWdxjufirq9jNRvjMr0ttjXdoLZlAguHc=
 			</data>
 		</dict>
 		<key>Headers/FaceCaptureOptions.h</key>
@@ -1124,6 +1232,34 @@
 			<key>hash2</key>
 			<data>
 			pHbIYXtLeIpHOXgNmel0BCzBpfaj9gE34XYKPvO0/Jg=
+			</data>
+		</dict>
+		<key>Headers/FingerCaptureHandlerDelegate.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2gl4w5AMtGw+LI1zxm9phXNBZaY7sj6CuP7VDpeTglY=
+			</data>
+		</dict>
+		<key>Headers/FingerCaptureLivenessType.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ml3OJueFxISTGfsd0lNCKuDn/oP3+jfTWrfZl5H+nrs=
+			</data>
+		</dict>
+		<key>Headers/FingerCaptureMode.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EkzstfsnddmtJxtsya1Fm64+epxPiWyQILU4w6LZorU=
+			</data>
+		</dict>
+		<key>Headers/FingerCaptureOptions.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ms8v82Lz8OS/569qE3hgPtXlk5dyNE5kx8UUqiBklcI=
 			</data>
 		</dict>
 		<key>Headers/IBIOGenericCaptureHandler.h</key>
@@ -1152,6 +1288,13 @@
 			<key>hash2</key>
 			<data>
 			LEzzibAP48WeV48ShyS+YlDnav/AXNm91rVV+23ykHk=
+			</data>
+		</dict>
+		<key>Headers/IFingerCaptureHandler.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tJuS0rFbqW7u3TqQXwfVtkjBlARsjq7UqGHyYsbGekI=
 			</data>
 		</dict>
 		<key>Headers/IRemoteFaceCaptureHandler.h</key>
