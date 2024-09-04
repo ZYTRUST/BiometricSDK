@@ -2,15 +2,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "BiometricSDK",
+    name: "zyBiometricSDK",
     defaultLocalization: "es",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "BiometricSDK",
-            targets: ["BiometricSDK"]
+            name: "zyBiometricSDK",
+            targets: ["zyBiometricSDK"]
         )
     ],
     dependencies: [
@@ -18,8 +18,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "BiometricSDK",
-            path: "BiometricSDK.xcframework"
+            name: "zyBiometricSDK",
+            path: "zyBiometricSDK.xcframework"
         )
     ]
 )
