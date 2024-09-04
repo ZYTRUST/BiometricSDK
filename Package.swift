@@ -5,7 +5,7 @@ let package = Package(
     name: "zyBiometricSDK",
     defaultLocalization: "es",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v11)
     ],
     products: [
         .library(
