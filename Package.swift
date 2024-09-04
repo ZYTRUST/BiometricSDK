@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BiometricSDK",
-            path: "BiometricSDK.xcframework"
+            path: "Sources/BiometricSDK.xcframework"
         )
     ]
 )
