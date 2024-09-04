@@ -9,8 +9,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "zyBiometricSDK",
-            targets: ["zyBiometricSDK"]
+            name: "BiometricSDK",
+            targets: ["BiometricSDK"]
         )
     ],
     dependencies: [
@@ -18,8 +18,8 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "zyBiometricSDK",
-            path: "zyBiometricSDK.xcframework"
+            name: "BiometricSDK",
+            path: "BiometricSDK.xcframework"
         )
     ]
 )
