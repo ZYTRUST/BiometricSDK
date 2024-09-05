@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "BiometricSDK",
+    name: "zyBiometricSDK",
     defaultLocalization: "es",
     platforms: [
         .iOS(.v11)
