@@ -9,7 +9,7 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "BiometricSDK",
+            name: "zyBiometricSDK",
             targets: ["BiometricSDK"]
         )
     ],
